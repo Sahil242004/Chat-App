@@ -10,6 +10,7 @@ import messageRouter from "../routes/routes.message.js";
 import path from "path";
 
 // const app = express();
+const port = process.env.PORT || 5000;
 const __dirname = path.resolve();
 app.use(
   cors({
@@ -31,7 +32,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-server.listen(5000, () => {
-  console.log("server is listening on port 5000");
+server.listen(port, () => {
+  console.log(`server is listening on port ${port}`);
   connectdb();
 });
