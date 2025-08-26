@@ -1,0 +1,30 @@
+@import "tailwindcss";
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #262626;
+}
+
+@theme {
+  --color-pri: #898ac4;
+  --color-sec: #686969;
+  --color-text: #757575;
+
+  --color-ter: #c0c9ee;
+  --color-bas: #fff2e0;
+  --color-dark: #1d1f2b;
+  --color-gr: #252837;
+  --color-ch: #849efd;
+  --color-chat-bg: #1a1a1a;
+  --color-chat-heading: #262626;
+  /* --color-navbar: #222244; */
+  --color-navbar: #141414;
+  --color-sidebar-1: #2f2d52;
+  --color-sidebar-2: #3f3d62;
+
+  --color-navbar-2: #393939;
+
+
+
+}
