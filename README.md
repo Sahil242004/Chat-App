@@ -65,8 +65,9 @@ A modern real-time chat application built using **MERN stack**, **Tailwind CSS**
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/livechat.git
-   cd livechat
+   git clone https://github.com/Sahil242004/Chat-App.git
+   cd Chat-App/
+
    ```
 
 2. **Install dependencies for both frontend and backend**
