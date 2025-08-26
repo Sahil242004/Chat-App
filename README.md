@@ -1,8 +1,8 @@
-# 🛒 E-Commerce Platform (MERN Stack)
+# LiveChat – Real-Time Chat Application
 
-![React](https://img.shields.io/badge/Frontend-React-blue) ![Tailwind](https://img.shields.io/badge/Styling-TailwindCSS-38b2ac) ![Node.js](https://img.shields.io/badge/Runtime-Node.js-green) ![Express.js](https://img.shields.io/badge/Backend-Express.js-lightgrey) ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen) ![Razorpay](https://img.shields.io/badge/Payments-Razorpay-purple) ![JWT](https://img.shields.io/badge/Auth-JWT-orange) ![Bcrypt](https://img.shields.io/badge/Security-Bcrypt-yellowgreen) ![Render](https://img.shields.io/badge/Hosted_on-Render-blueviolet) ![Axios](https://img.shields.io/badge/Client-Axios-5A29E4) ![Vercel](https://img.shields.io/badge/Hosted_on-Vercel-black) ![Toastify](https://img.shields.io/badge/UI-Toastify-ffb347) ![Made With Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+A modern real-time chat application built using **MERN stack**, **Tailwind CSS**, and **Socket.IO**. It enables seamless, secure, and responsive messaging between users.
 
-A full-stack e-commerce web application built using the MERN stack (MongoDB, Express.js, React, Node.js). The platform supports two user types — Customers and Admins — and provides essential features for online shopping and product management.
+![React](https://img.shields.io/badge/Frontend-React-blue) ![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC) ![Node.js](https://img.shields.io/badge/Backend-Node.js-green) ![Express](https://img.shields.io/badge/Framework-Express-black) ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen) ![Socket.IO](https://img.shields.io/badge/RealTime-Socket.IO-lightgrey) ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
 
 ## 📚 Table of Contents
 
@@ -13,103 +13,105 @@ A full-stack e-commerce web application built using the MERN stack (MongoDB, Exp
 - [Folder Structure](####-folder-structure)
 - [Screen Shots](##-Screenshots)
 
-## Demo
-
-[Live Demo - https://e-commerce-frontend-umber-alpha.vercel.app/](https://e-commerce-frontend-umber-alpha.vercel.app/)
-
 ## Tech Stack
 
-**Client:** React, Tailwind CSS, Axios, Toastify
+**Frontend:**
 
-**Server:** Node.js, Express.js, MongoDB, Mongoose
+- React.js
+- Tailwind CSS
 
-**Authentication:** JWT, Bcrypt
+**Backend:**
 
-**Payments:** Razorpay, COD
+- Node.js
+- Express.js
+
+**Database:**
+
+- MongoDB
+
+**Real-Time Communication:**
+
+- Socket.IO
+
+**Authentication & Security:**
+
+- JWT (JSON Web Tokens)
+- Bcrypt for password hashing
+
+**Other Tools & Libraries:**
+
+- Axios
+- Dotenv
+- CORS
 
 ## Features
 
-- User Authentication & Authorization (JWT-based)
-- Product Browsing with filtering
-- Shopping Cart & Checkout Flow
-- Order Placement with Cash on Delivery and Razorpay payment options (Stripe integration pending)
-- Admin Dashboard to manage Products Inventory and Orders
-- Responsive UI using Tailwind CSS
-- Secure password hashing with Bcrypt
+- **Real-Time Messaging** – Instant, bidirectional communication powered by Socket.IO.
+- **User Authentication** – Secure signup/login using JWT and password hashing.
+- **Private** – Support for one-to-one chat with multiple users.
+- **Message Persistence** – All messages are stored in MongoDB for later access.
+- **UI** – Built with React and Tailwind CSS.
+- **User Management** – Profile handling and user-specific sessions.
 
 ## Run Locally
 
-#### 📁 Project Structure:
+### Prerequisites
 
-- /frontend – React app
-- /backend – Express API + MongoDB
-- /admin – Admin dashboard
+- Node.js and npm installed
+- MongoDB installed and running locally or use MongoDB Atlas
 
-clone the project
+### Steps
 
-```bash
-  git clone https://link-to-project
-```
+1. **Clone the repository**
 
-Go to the project directory
+   ```bash
+   git clone https://github.com/your-username/livechat.git
+   cd livechat
+   ```
 
-```bash
-  cd my-project
-```
+2. **Install dependencies for both frontend and backend**
 
-Install dependencies fontend backend and admin
+   ```bash
+   cd backend
+   npm install
+   cd ../frontend
+   npm install
+   ```
 
-```bash
-  cd frontend && npm install
-  cd ../backend && npm install
-  cd ../admin && npm install
+3. **Setup environment variables**
 
-```
+   ```bash
+   check .env.example file
+   ```
 
-Start the backend server
+4. **Start the backend server**
 
-```bash
-  //run these in root directory
-  cd backend
-  npm run start
-```
+   ```bash
+   cd backend
+   npm run dev
+   ```
 
-Start the frontend App
+5. **Start the frontend**
 
-```bash
-  //run these in root directory
-  cd frontend
-  npm run dev
-```
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-Start the Admin App
-
-```bash
-  //run these in root directory
-  cd admin
-  npm run
-```
-
-```bash
-  //for logging in as User , dummy credentials
-  EMAIL = 'sahil@gmail.com'
-  PASSWORD = '12345678'
-```
+6. **Dummy credentials**
+   ```bash
+   //for logging in as User , dummy credentials
+   EMAIL = 'sahil@gmail.com/shivam@gmail.com/gaurav@gmail.com'
+   PASSWORD = '1234567890'
+   ```
 
 Your are good to go!!
 
 ## Screenshots
 
-![Frontend Screenshot](/docs/ss_frontend1.png)
-![Frontend Screenshot](/docs/ss_frontend2.png)
-![Frontend Screenshot](/docs/ss_frontend3.png)
-![Frontend Screenshot](/docs/ss_frontend4.png)
-![Frontend Screenshot](/docs/ss_frontend5.png)
-![Frontend Screenshot](/docs/ss_frontend6.png)
-
-<!-- ![Frontend Screenshot](/docs/ss_frontend7.png) -->
-
-![Admin Screenshot](/docs/ss_admin1.png)
-![Admin Screenshot](/docs/ss_admin2.png)
-![Admin Screenshot](/docs/ss_admin3.png)
-![Admin Screenshot](/docs/ss_admin4.png)
+![Screenshot](/Docs/Image1.png)
+![Screenshot](/Docs/Image2.png)
+![Screenshot](/Docs/Image3.png)
+![Screenshot](/Docs/Image4.png)
+![Screenshot](/Docs/Image5.png)
+![Screenshot](/Docs/Image6.png)
